@@ -6,3 +6,6 @@ print("Map function return map object ->", map(mapFunction,nums));
 
 nums=list(map(mapFunction,nums));
 print(nums);
+
+nums=[num*2 for num in nums];
+print(f"Comprehension ways ->{nums}");
